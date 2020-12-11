@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ${SPRING_APPLICATION_NAME:frontend}
+  resources:
+    static-locations: file:${STATIC_LOCATIONS:/files}
+
+server:
+  port: ${PORT:80}
